@@ -82,7 +82,7 @@ function calcStrength(){
     if(symbolsCheck.checked) hasSym = true;
 
     if (hasUpper && hasLower && (hasNum || hasSym) && passwordLength <=8){
-        setIndicator("#0f0");
+        setIndicator("#3cb371");
      } else if (
         (hasLower || hasUpper)&&
         (hasNum || hasSym) &&
