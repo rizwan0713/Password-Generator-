@@ -215,6 +215,9 @@ h1{
 .copyBtn{
     background-color: transparent;
     border: none;
+   
+}
+.copyImage{
     cursor: pointer;
 }
 
